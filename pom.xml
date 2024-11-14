@@ -131,9 +131,14 @@
 	<repositories>
 		<repository>
 			<id>central</id>
-			<url>https://repo.maven.apache.org/maven2</url>
+			<url>https://repo.maven.apache.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>webjars</id>
+			<url>https://mvnrepository.com/artifact/org.webjars/jquery</url>
 		</repository>
 	</repositories>
+
 
 
 
