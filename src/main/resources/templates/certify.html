@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://wwww.thymeleaf.org" lang="en">
+<head>
+    <link href="/webjars/bootstrap/5.2.3/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="/webjars/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ObeyBlessingStudios | Home</title>
+</head>
+<body class="bg-gs  ">
+      <div th:replace="~{fragments/header::header}"></div>
+      <div class="px-4 text-center ">
+          <img  src="../static/images/android-chrome-512x512.png"  width="15%" height="15%" th:src="@{images/android-chrome-512x512.png}" alt="Logo">
+          <h1>💻Welcome to Obey Blessing Studios👋</h1>
+
+          <div style="display: flex">
+              <div class="content-split">
+                  <a class="navbar-brand discord-link d-flex justify-content-end" href="#" th:href="@{https://x.com/bido65dev}">
+                      <img src="../static/images/bleststud.gif" th:src="@{images/bleststud.gif}" width="90%" height="90%" alt="Studio logo">
+                  </a>
+              </div>
+            <div class="col-lg-6 mx-auto">
+
+                  <h3>Inception:</h3>
+                <p>I will add more project details later about this page</p>
+                <h3> Alpha Testers</h3>
+                      <p>Your invaluable feedback refines  the project</p>
+                <h3>SOFTWARE ARCHITECTURE</h3>
+                    <p>I will add more staff about the project's architecture details later</p>
+              </div>
+          </div>
+      </div>
+</body>
+</html>

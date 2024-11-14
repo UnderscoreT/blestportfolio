@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <!-- Bootstrap and CSS links -->
+    <link href="/webjars/bootstrap/5.2.3/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="/css/sidebar.css" rel="stylesheet"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObeyBlessingStudios | Home</title>
+</head>
+<body class="bg-gs">
+<svg th:replace="~{fragments/svg::svg}"></svg>
+<div th:replace="~{fragments/header::header}"></div>
+<div class="wrapper">
+    <aside th:replace="~{fragments/sidebars/_sidebar_main::sidebar}"></aside>
+    <!-- Content section -->
+    <div class="content px-4 text-center">
+        <!-- Using a container for Flexbox alignment -->
+
+            <img src="../static/images/trans.webp" width="100%" height="30%" th:src="@{images/trans.webp}" alt="Logo">
+        <div class="col-lg-6 mx-auto">  <h1 >Welcome to <i>BLEST-CODE-STUDIOS</i></h1 >
+        </div>
+
+        <div style="display: flex">
+            <div class="content-split">
+                <iframe width="420" height="720" src="https://www.youtube.com/embed/vZUFxvOzKag?si=8urq6-kQiEkIpxZk" title="About Me | Obey" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <p class="larger-font">
+                    I am a certified Java developer and Linux systems administrator by tech giants Oracle and Redhat.
+                    When I am not coding, I will be hitting the gym.
+                    I believe nothing is impossible as long as you put your whole mind on it.
+                </p>
+                <h3>BACKEND</h3>
+                <p class="larger-font">
+                     Java, Spring Boot, Spring Cloud<br>
+                    JPA, SQL<br>
+                    MySQL, MongoDB, Oracle DB<br>
+                    AWS, OpenShift<br>
+                    Keycloak, Okta<br>
+                     Docker, Kubernetes<br>
+                     Jenkins, GitLab CI
+                </p>
+                <h3>FRONTEND</h3>
+                <p class="larger-font">
+                     JavaScript, TypeScript<br>
+                     Angular<br>
+                     HTML<br>
+                    CSS<br>
+                    Bootstrap
+                </p>
+                <h3>SOFTWARE ARCHITECTURE</h3>
+                <p class="larger-font">
+                     Microservices Architecture, Event-driven Architecture, Multitier Architecture, Clean Architecture, SOA<br>
+                     SOLID Principles, Clean Code
+                </p>
+                <p>
+                    Do not hesitate to connect with me on LinkedIn and say hi :)
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/webjars/jquery/3.6.4/jquery.min.js"></script>
+<script src="/webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

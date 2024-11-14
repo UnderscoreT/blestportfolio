@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <!-- Bootstrap and CSS links -->
+    <link href="/webjars/bootstrap/5.2.3/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="/css/sidebar.css" rel="stylesheet"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObeyBlessingStudios | Home</title>
+</head>
+<body class="bg-gs">
+<svg th:replace="~{fragments/svg::svg}"></svg>
+<div th:replace="~{fragments/header::header}"></div>
+<div class="wrapper">
+    <aside th:replace="~{fragments/sidebars/_sidebar_main::sidebar}"></aside>
+    <!-- Content section -->
+    <div class="content px-4 text-center">
+        <!-- Using a container for Flexbox alignment -->
+
+        <img src="../static/images/trans.webp" width="100%" height="30%" th:src="@{images/trans.webp}" alt="Logo">
+        <div class="col-lg-6 mx-auto">  <h1>Welcome to <span style="font-family: 'Courier New', monospace;">𝓑𝓵𝓮𝓼𝓽𝓒𝓸𝓭𝑒𝒮𝓽𝓾𝒹𝒾𝑜𝓼</span></h1>
+
+
+        </div>
+
+        <div style="display: flex">
+            <div class="content-split">
+                <iframe width="420" height="720" src="https://www.youtube.com/embed/qLI0jSaBvn4" title="About Me | Obey" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-lg-6 mx-auto">
+                <p>
+                    Hello, I'm Obey Blessing Sibanda, the creator of this forum. I am a Java developer and Linux systems administrator, certified by Oracle and Redhat. This diverse background enables me to appreciate systems holistically—from both development and infrastructure perspectives.
+
+                    I am passionate about continuously learning and growing my skills, with the goal of becoming a full-stack Java developer. Writing clean, efficient code is at the heart of what I do. I take pride in leveraging the language’s features to deliver scalable, robust applications that run seamlessly.
+
+                    When I'm not coding, you'll likely find me at the gym or out in nature. I firmly believe that with focus and determination, nothing is impossible.
+
+                </p>
+
+
+                <!-- New section for Java Certification -->
+                <h3>Java Certification</h3>
+                <p >
+                    View my certification badge below, which I acquired  on the
+                    14th of August 2023.
+                </p>
+                <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=A38FA5B2AA2CBC83265B462B085FCD59EF59F3DBEE1833771074122556370A22" target="_blank">
+                    <img src="../static/images/OCPJSE11.png" alt="Java Certification Badge" width="150" height="150" th:src="@{images/OCPJSE11.png}"/>
+                </a>
+                <br><br>
+                <p>About my skills</p>
+                <h3>BACKEND</h3>
+                <p>
+                    Java, Spring Boot, Spring Cloud<br>
+                    JPA, SQL<br>
+                    MySQL, MongoDB, Oracle DB<br>
+                    AWS, OpenShift<br>
+                    Keycloak, Okta<br>
+                    Docker, Kubernetes<br>
+                    Jenkins, GitLab CI
+                </p>
+                <h3>FRONTEND</h3>
+                <p >
+                    JavaScript, TypeScript<br>
+                    Angular<br>
+                    HTML<br>
+                    CSS<br>
+                    Bootstrap
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-6 mx-auto">
+            <h3>SOFTWARE ARCHITECTURE</h3>
+            <p >
+                Microservices Architecture, Event-driven Architecture, Multitier Architecture, Clean Architecture, SOA<br>
+                SOLID Principles, Clean Code
+            </p>
+            <p>Check the navigation on this page for some of the projects that I have worked on and
+                the code will be available on my GitHub  page</p>
+
+            <!-- Insert the footer -->
+            <div th:replace="fragments/footer :: footer"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/webjars/jquery/3.6.4/jquery.min.js"></script>
+<script src="/webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</div>
+</div>
+</body>
+</html>
