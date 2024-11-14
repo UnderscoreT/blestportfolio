@@ -1,0 +1,15 @@
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\BlestCodeStudiosApplication.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\config\DatabaseConfiguration.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\config\DatabaseConnectionConfiguration.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\config\WebSecurityConfiguration.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\controllers\RegistrationController.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\data\CustomUserDetails.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\data\dto\UserCredentialsDto.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\data\user\Role.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\data\user\RoleRepository.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\data\user\UserProfile.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\data\user\UserProfileRepository.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\services\RegistrationService.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\utils\Logger.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\web\services\CustomUserDetailsService.java
+C:\blestcodestudios2\src\main\java\xyz\obeyblessingportfolio\web\SitemapController.java
