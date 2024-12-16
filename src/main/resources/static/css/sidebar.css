@@ -1,4 +1,4 @@
-
+/* General Sidebar Styles */
 .wrapper {
     height: 100vh;
     display: flex;
@@ -8,12 +8,14 @@
 
 aside {
     height: 100%;
-    width: 256px;
-    float: left;
+    width: 256px; /* Sidebar width */
     position: sticky;
     top: 0;
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease; /* Smooth transition for sliding effects */
 }
 
+/* Navigation Items */
 .nav-item {
     margin: 0.5rem 0;
 }
@@ -35,4 +37,45 @@ aside {
 .side-flex {
     display: flex !important;
     height: 100vh;
+}
+
+/* Media Queries for Responsiveness */
+
+/* When screen width is 768px or less (i.e., tablet or smaller screens) */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    aside {
+        width: 100%; /* Make sidebar full width on small screens */
+        position: relative; /* Make sidebar scrollable */
+        top: initial; /* Remove sticky positioning */
+    }
+
+    .nav-item {
+        padding: 0.5rem 1rem; /* Adjust padding for small screens */
+    }
+
+    /* Optionally hide the sidebar or add a toggle button */
+    .sidebar-hidden {
+        transform: translateX(-100%); /* Hide sidebar off-screen */
+    }
+}
+
+/* When screen width is 576px or less (i.e., smaller screens like phones) */
+@media (max-width: 576px) {
+    aside {
+        width: 100%; /* Ensure sidebar is full width on phones */
+        display: none; /* Hide the sidebar by default */
+    }
+
+    .wrapper {
+        gap: 0; /* Remove the gap between content and sidebar on small screens */
+    }
+
+    /* Optional: Add a hamburger menu toggle for the sidebar */
+    .sidebar-toggle {
+        display: block; /* Display the sidebar toggle button */
+    }
 }
