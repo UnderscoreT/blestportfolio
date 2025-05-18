@@ -508,3 +508,21 @@ footer .row {
 li {
     list-style: none;
 }
+
+.video-text-wrapper > .video-container,
+.video-text-wrapper > .text-section {
+    flex: 1 1 45%; /* Grow/shrink, base ~45% width */
+    max-width: 45%;
+}
+
+@media (max-width: 768px) {
+    .video-text-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-text-wrapper > .video-container,
+    .video-text-wrapper > .text-section {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
