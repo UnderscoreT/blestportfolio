@@ -1,7 +1,7 @@
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (height/width = 9/16 = 0.5625) */
+    padding-bottom: 15.25%; /* 16:9 Aspect Ratio (height/width = 9/16 = 0.5625) */
     height: 0;
     overflow: hidden;
     max-width: 100%;
@@ -12,13 +12,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 /* Existing styles here */
 
 /* Media query for small screens (max-width: 768px) */
 @media (max-width: 768px) {
     .video-container {
-        padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+        padding-bottom: 15.25%; /* Maintain 16:9 aspect ratio */
     }
 }
