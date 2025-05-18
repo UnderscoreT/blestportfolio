@@ -464,3 +464,43 @@ footer .row {
 .content-split {
     margin-bottom: 20px; /* Adds space between sections */
 }
+
+/* Online update */
+.col-lg-6 {
+    margin-top: 15px;
+}
+
+.row {
+    
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Limit iframe width on all screens */
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Text container */
+.text-container {
+    max-width: 600px;
+}
+
+/* On screens <= 768px, stack vertically */
+@media (max-width: 768px) {
+    .video-text-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container,
+    .text-container {
+        width: 100%;
+    }
+}
