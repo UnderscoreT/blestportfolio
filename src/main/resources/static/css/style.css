@@ -488,7 +488,7 @@ footer .row {
 }
 
 /* Text container */
-.text-container {
+.text-section {
     max-width: 600px;
 }
 
@@ -500,7 +500,7 @@ footer .row {
     }
 
     .video-container,
-    .text-container {
+    .text-section {
         width: 100%;
     }
 }
