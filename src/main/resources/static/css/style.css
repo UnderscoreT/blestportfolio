@@ -491,6 +491,9 @@ footer .row {
 .text-section {
     max-width: 600px;
 }
+.last-section{
+        margin: 0 auto;
+}
 
 /* On screens <= 768px, stack vertically */
 @media (max-width: 768px) {
