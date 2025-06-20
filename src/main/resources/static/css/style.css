@@ -529,3 +529,15 @@ li {
         max-width: 100%;
     }
 }
+.last-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .last-section {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
