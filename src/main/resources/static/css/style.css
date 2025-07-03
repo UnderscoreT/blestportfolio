@@ -545,5 +545,5 @@ li {
         flex-direction: column;
 }
 .fix-dt{
-    display: block;
+    display: block!important;
 }
