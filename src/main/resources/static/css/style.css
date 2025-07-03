@@ -541,3 +541,6 @@ li {
   }
 }
 
+.wrapper {
+        flex-direction: column;
+}
