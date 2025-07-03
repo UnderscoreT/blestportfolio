@@ -544,3 +544,6 @@ li {
 .wrapper {
         flex-direction: column;
 }
+.fix-dt{
+    display: block;
+}
