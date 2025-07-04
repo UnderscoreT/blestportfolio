@@ -573,3 +573,8 @@ li {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.java-cert{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
