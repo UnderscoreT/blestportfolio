@@ -615,3 +615,7 @@ html {
     grid-template-columns: 1fr;
   }
 }
+.footer-socials-icon{
+    width: 24px;
+    height: 24px;
+}
