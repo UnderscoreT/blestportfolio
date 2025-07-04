@@ -27,7 +27,7 @@
 
         <div class="video-text-wrapper">
             <div class="ratio ratio-16x9 video-container">
-                <iframe width="420" height="720" src="https://www.youtube.com/embed/qLI0jSaBvn4" title="About Me | Obey" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="420" height="100%" src="https://www.youtube.com/embed/qLI0jSaBvn4" title="About Me | Obey" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div class="text-section col-lg-6 mx-auto">
@@ -42,42 +42,44 @@
             </div>
         </div>
 
-                <!-- New section for Java Certification -->
-                <h3>Java Certification</h3>
-                <p >
-                    View my certification badge below, which I acquired  on the
-                    14th of August 2023.
-                </p>
-                <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=A38FA5B2AA2CBC83265B462B085FCD59EF59F3DBEE1833771074122556370A22" target="_blank">
-                    <img src="../static/images/OCPJSE11.png" alt="Java Certification Badge" width="150" height="150" th:src="@{images/OCPJSE11.png}"/>
-                </a>
-                <br><br>
-                <p>About my skills</p>
-                <h3>BACKEND</h3>
-                <ul>
-                    
-                    <li>Java, Spring Boot</li>
-                    <li>JPA,MySQL, Docker</li>
-                    <li>AWS, OpenShift</li>
-                    <li> Keycloak, Okta</li>
-                    <li>Kubernetes, Kubernetes</li>
-                    <li>GitLab CI</li>
-                    <li></li>
-                    
-                                       
-                </ul>
-                <h3>FRONTEND</h3>
-                <ul >
-                    <li>JavaScript, TypeScript</li>
-                    <li>React, Angular</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>ThymeLeaf</li>
-                                     
-                </ul>
-            </div>
 
+      <div class="container grid grid--4-cols">
+
+          <h3>Java Certification</h3>
+          <p >
+              View my certification badge below, which I acquired  on the
+              14th of August 2023.
+            </p>
+            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=A38FA5B2AA2CBC83265B462B085FCD59EF59F3DBEE1833771074122556370A22" target="_blank">
+                <img src="../static/images/OCPJSE11.png" alt="Java Certification Badge" width="150" height="150" th:src="@{images/OCPJSE11.png}"/>
+            </a>
+            <br><br>
+            <p>About my skills</p>
+            <h3>BACKEND</h3>
+            <ul>
+                
+                <li>Java, Spring Boot</li>
+                <li>JPA,MySQL, Docker</li>
+                <li>AWS, OpenShift</li>
+                <li> Keycloak, Okta</li>
+                <li>Kubernetes, Kubernetes</li>
+                <li>GitLab CI</li>
+                <li></li>
+                
+                
+            </ul>
+            <h3>FRONTEND</h3>
+            <ul >
+                <li>JavaScript, TypeScript</li>
+                <li>React, Angular</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>ThymeLeaf</li>
+                
+            </ul>
+        </div>
+        
         <div class="col-lg-6 mx-auto last-section text-center">
             <h3>SOFTWARE ARCHITECTURE</h3>
             <p >
@@ -86,18 +88,19 @@
             </p>
             <p>Check the navigation on this page for some of the projects that I have worked on and
                 the code will be available on my GitHub  page</p>
-
+            </div>
+        </div> 
+                
             <!-- Insert the footer -->
             <div th:replace="fragments/footer :: footer"></div>
         </div>
     </div>
-</div>
+
 
 <!--<script src="/webjars/jquery/3.6.4/jquery.min.js"></script>-->
 <script src="/js/jquery.min.js"></script>
 
 <script src="/webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
-</div>
-</div>
+
 </body>
 </html>
