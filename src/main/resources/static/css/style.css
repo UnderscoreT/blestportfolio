@@ -578,3 +578,6 @@ li {
     flex-direction: column;
     gap: 2rem;
 }
+.video-container {
+    justify-self: end;
+}
