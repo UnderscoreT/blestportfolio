@@ -549,6 +549,10 @@ li {
 }
 
 /* new   staff */
+html {
+  font-size: 62.5%;
+}
+
 
 .container {
   /* 1140px */
