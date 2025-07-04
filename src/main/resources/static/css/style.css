@@ -600,3 +600,18 @@ html {
     height: 22px;
     border-radius: 3px;
 }
+
+/* responsive ui small screens */
+
+
+@media (max-width: 992px) {
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+}
