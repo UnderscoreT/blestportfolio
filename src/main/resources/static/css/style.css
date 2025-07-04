@@ -585,3 +585,6 @@ html {
 .video-container {
     justify-self: end;
 }
+.social-links {
+    margin-bottom: 3.6rem;
+}
