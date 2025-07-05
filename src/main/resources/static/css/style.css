@@ -643,3 +643,16 @@ html {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    color: #767676;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+}
