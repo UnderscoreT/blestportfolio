@@ -634,3 +634,7 @@ html {
     margin-bottom: 4rem;
     text-align: center;
 }
+
+.list-inline{
+    margin: 40px;
+}
