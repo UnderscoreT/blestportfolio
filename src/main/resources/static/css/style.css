@@ -588,9 +588,7 @@ html {
 .social-links {
     margin-bottom: 3.6rem;
 }
-.footer-text {
-    margin-top: 3rem;
-}
+
 
 .icon-link {
     
@@ -629,4 +627,10 @@ html {
 }
 .skill-container {
     margin-bottom: 6rem;
+}
+
+.stand-alone-text {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
 }
