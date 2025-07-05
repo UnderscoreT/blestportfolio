@@ -619,3 +619,11 @@ html {
     width: 24px;
     height: 24px;
 }
+
+/*fixing mobile screen staff*/
+@media (max-width: 768px) {
+    .skills {
+        margin-bottom: 6rem;
+        padding-bottom: 6rem;
+    }
+}
