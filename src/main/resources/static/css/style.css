@@ -668,8 +668,10 @@ html {
  */
 
   .welcome {
-      font-weight: 400;
-      color: #5c5c64;
+      font-weight: 500;
+      color: #2e2e32;
+
+
   }
 
 
@@ -681,6 +683,8 @@ html {
     text-decoration: none;
     display:  inline-block;
     transition: all 0.3s;
+    padding: 1rem;
+    border-radius: 3px;
 }
 .btn--small:hover {
     color: #171719
