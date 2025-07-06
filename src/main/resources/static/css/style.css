@@ -678,4 +678,10 @@ html {
     font-size: 1.2rem;
     color: #fff;
     background-color: #5c5c64;
+    text-decoration: none;
+    display:  inline-block;
+    transition: all 0.3s;
+}
+.btn--small:hover {
+    color: #171719
 }
