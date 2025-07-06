@@ -671,3 +671,11 @@ html {
       font-weight: 400;
       color: #5c5c64;
   }
+
+
+  /*button reg */
+.btn--small {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #5c5c64;
+}
