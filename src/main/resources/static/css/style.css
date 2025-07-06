@@ -689,3 +689,24 @@ html {
 .btn--small:hover {
     color: #171719
 }
+
+
+
+/* testing footer issue */
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding-bottom: 2rem; /* Ensures spacing before footer */
+}
+
+.footer-frag {
+    clear: both;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
