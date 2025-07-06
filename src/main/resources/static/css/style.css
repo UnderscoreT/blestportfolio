@@ -1,5 +1,6 @@
 .bg-gs {
         background-color: rgba(230, 230, 250, 0.88);
+    /*#e6e6fa*/
 }
 body {
     font-size: 1.5rem;
@@ -661,3 +662,12 @@ html {
 .skill-list li {
     font-size: 1.2rem;
 }
+
+/*  shades
+
+ */
+
+  .welcome {
+      font-weight: 400;
+      color: #5c5c64;
+  }
