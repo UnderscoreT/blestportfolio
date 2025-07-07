@@ -24,7 +24,7 @@ public class WebSecurityConfiguration {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/", "/home", "index","/resources/**", "/css/**",
+                        .requestMatchers("/", "/home", "/index", "/css/**",
                                 "/images/**", "/island", "/register/**", "/js/**",
                                 "/error", "/api/v1/registration/**").permitAll()
                         // Resources

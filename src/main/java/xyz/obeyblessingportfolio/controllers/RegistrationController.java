@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import xyz.obeyblessingportfolio.data.dto.UserCredentialsDto;
 import xyz.obeyblessingportfolio.data.user.UserProfile;
-import xyz.obeyblessingportfolio.services.RegistrationService;
+import xyz.obeyblessingportfolio.web.services.RegistrationService;
+
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

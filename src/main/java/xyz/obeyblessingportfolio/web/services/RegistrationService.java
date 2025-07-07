@@ -1,16 +1,17 @@
-package com.blestcodestudios.fuelsalesapp.service;
+package xyz.obeyblessingportfolio.web.services;
 
-import com.blestcodestudios.fuelsalesapp.dto.UserCredentialsDto;
-import com.blestcodestudios.fuelsalesapp.entity.AppUser;
-import com.blestcodestudios.fuelsalesapp.repository.UserRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import xyz.obeyblessingportfolio.data.dto.UserCredentialsDto;
+import xyz.obeyblessingportfolio.data.user.UserProfile;
+import xyz.obeyblessingportfolio.data.user.UserProfileRepository;
 
 
 @Service
 @RequiredArgsConstructor
 public class RegistrationService {
-    private final UserRepository userRepository;
+    private final UserProfileRepository userRepository;
 
     public boolean userExists(UserCredentialsDto userCredentialsDto) {
 
@@ -19,7 +20,7 @@ public class RegistrationService {
 
     }
 
-    public void save(AppUser model) {
+    public void save(UserProfile model) {
         userRepository.save(model);
     }
 }
