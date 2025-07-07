@@ -708,5 +708,27 @@ html {
 }
 
 .wrapper {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+}
+
+/*  linking  */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.projects {
+    max-width: 140px;
+
+
+}
+.sizfuel-project p,a {
+     font-size: 0.8rem;
+}
+.proj--link {
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
 }
