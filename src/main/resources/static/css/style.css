@@ -721,7 +721,7 @@ html {
 
 .projects {
     max-width: 140px;
-
+    margin: 0 auto;
 
 }
 .sizfuel-project p,a {
@@ -730,5 +730,10 @@ html {
 .proj--link {
     font-style: normal;
     text-decoration: none;
+    color: inherit;
+}
+.sizafuel-link{
+    font-style: normal;
+    text-decoration: wavy;
     color: inherit;
 }
