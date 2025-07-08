@@ -720,12 +720,12 @@ html {
 }
 
 .projects {
-    max-width: 140px;
+    max-width: 150px;
     margin: 0 auto;
 
 }
 .sizfuel-project p,a {
-     font-size: 0.8rem;
+     font-size: 1.2rem;
 }
 .proj--link {
     font-style: normal;
