@@ -485,8 +485,8 @@ footer .row {
 
 /* Limit iframe width on all screens */
 .video-container iframe {
-    max-width: 100%;
-    height: auto;
+    max-width: 70%;
+    /*height: auto;*/
     border-radius: 8px;
 }
 
