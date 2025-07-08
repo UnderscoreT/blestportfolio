@@ -732,7 +732,7 @@ html {
     text-decoration: none;
     color: inherit;
 }
-.sizafuel-link,.source-code{
+.proj--link,.source-code{
     font-style: normal;
     text-decoration: underline;
     color: inherit;
