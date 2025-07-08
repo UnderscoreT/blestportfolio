@@ -732,9 +732,9 @@ html {
     text-decoration: none;
     color: inherit;
 }
-.sizafuel-link{
+.sizafuel-link,.source-code{
     font-style: normal;
-    text-decoration: wavy;
+    text-decoration: underline;
     color: inherit;
 }
 iframe {
